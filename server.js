@@ -25,7 +25,7 @@ app.get('/',async(req,res)=>{
 
 app.listen(3005,()=>{
     mongoose.
-    connect("mongodb+srv://admin:root@cluster0.kwlzyeo.mongodb.net/REY?retryWrites=true&w=majority&appName=Cluster0")
+    connect()
     .then(()=>{console.log("connected to database")})
     
 
